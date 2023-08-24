@@ -2,10 +2,14 @@ package testCases;
 
 import java.time.Duration;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.ReadConfig;
@@ -17,7 +21,9 @@ public class WebBase {
 	String browser = readConfig.getBrowser();
 
 	public static WebDriver driver;
+	public static Logger logger;
 
+	@BeforeClass
 	public void setUp() {
 		// launch browser
 		switch (browser.toLowerCase()) {
@@ -39,8 +45,19 @@ public class WebBase {
 			driver = null;
 			break;
 		}
-
+        //implicit wait of 10 secs 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
+       //for logging 
+		logger=LogManager.getLogger("PomUsingSelenium");
+		//open Url
+		driver.get(url);
+		logger.info("url opened");
+		}
+	
+	@AfterClass
+	public void browserClose() {
+		driver.close();
+		//driver.quit();
+		
 	}
 }
