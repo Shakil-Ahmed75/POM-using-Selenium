@@ -7,3 +7,18 @@
 [INFO ] 2023-08-24 21:17:08.592 [main] PomUsingSelenium - url opened
 [INFO ] 2023-08-24 21:17:08.625 [main] PomUsingSelenium - ***************TestCase Verify Registration and Login starts*****************
 [INFO ] 2023-08-24 21:17:09.870 [main] PomUsingSelenium - Clicked on sign in link
+[INFO ] 2023-08-24 22:56:05.513 [main] PomUsingSelenium - url opened
+[INFO ] 2023-08-24 22:56:05.544 [main] PomUsingSelenium - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2023-08-24 22:56:07.001 [main] PomUsingSelenium - Clicked on sign in link
+[INFO ] 2023-08-24 22:56:07.196 [main] PomUsingSelenium - Entered Email Address
+[INFO ] 2023-08-24 22:56:07.301 [main] PomUsingSelenium - clicked on create an account button
+[INFO ] 2023-08-24 23:00:53.013 [main] PomUsingSelenium - url opened
+[INFO ] 2023-08-24 23:00:53.044 [main] PomUsingSelenium - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2023-08-24 23:00:54.384 [main] PomUsingSelenium - Clicked on sign in link
+[INFO ] 2023-08-24 23:00:54.593 [main] PomUsingSelenium - Entered Email Address
+[INFO ] 2023-08-24 23:00:54.713 [main] PomUsingSelenium - clicked on create an account button
+[INFO ] 2023-08-24 23:01:38.354 [main] PomUsingSelenium - url opened
+[INFO ] 2023-08-24 23:01:38.383 [main] PomUsingSelenium - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2023-08-24 23:01:39.471 [main] PomUsingSelenium - Clicked on sign in link
+[INFO ] 2023-08-24 23:01:39.667 [main] PomUsingSelenium - Entered Email Address
+[INFO ] 2023-08-24 23:01:39.797 [main] PomUsingSelenium - clicked on create an account button

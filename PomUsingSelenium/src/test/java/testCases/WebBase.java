@@ -48,7 +48,8 @@ public class WebBase {
 
 		//implicit wait of 10 secs
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
+		//driver.manage().timeouts().pageLoadTimeout()
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(100));
 		//for logging
 		logger = LogManager.getLogger("PomUsingSelenium");
 		

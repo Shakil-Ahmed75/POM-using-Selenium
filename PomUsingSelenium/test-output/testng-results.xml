@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-24T21:16:57 BDT" name="Default suite" finished-at="2023-08-24T21:17:10 BDT" duration-ms="13139">
+  <suite started-at="2023-08-24T23:01:29 BDT" name="Suite" finished-at="2023-08-24T23:01:40 BDT" duration-ms="10270">
     <groups>
     </groups>
-    <test started-at="2023-08-24T21:16:57 BDT" name="Default test" finished-at="2023-08-24T21:17:10 BDT" duration-ms="13139">
+    <test started-at="2023-08-24T23:01:29 BDT" name="Test" finished-at="2023-08-24T23:01:40 BDT" duration-ms="10270">
       <class name="testCases.TC01MyAccountPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC01MyAccountPage@45099dd3]" started-at="2023-08-24T21:16:57 BDT" name="setup" finished-at="2023-08-24T21:17:08 BDT" duration-ms="11177" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC01MyAccountPage@45099dd3]" started-at="2023-08-24T23:01:29 BDT" name="setup" finished-at="2023-08-24T23:01:38 BDT" duration-ms="8518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegistrationAndLogin()[pri:0, instance:testCases.TC01MyAccountPage@45099dd3]" started-at="2023-08-24T21:17:08 BDT" name="verifyRegistrationAndLogin" finished-at="2023-08-24T21:17:10 BDT" duration-ms="1583" status="PASS">
+        <test-method signature="verifyRegistrationAndLogin()[pri:0, instance:testCases.TC01MyAccountPage@45099dd3]" started-at="2023-08-24T23:01:38 BDT" name="verifyRegistrationAndLogin" finished-at="2023-08-24T23:01:39 BDT" duration-ms="1424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegistrationAndLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01MyAccountPage@45099dd3]" started-at="2023-08-24T21:17:10 BDT" name="tearDown" finished-at="2023-08-24T21:17:10 BDT" duration-ms="305" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01MyAccountPage@45099dd3]" started-at="2023-08-24T23:01:39 BDT" name="tearDown" finished-at="2023-08-24T23:01:40 BDT" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC01MyAccountPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
