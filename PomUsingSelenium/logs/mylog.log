@@ -22,3 +22,13 @@
 [INFO ] 2023-08-24 23:01:39.471 [main] PomUsingSelenium - Clicked on sign in link
 [INFO ] 2023-08-24 23:01:39.667 [main] PomUsingSelenium - Entered Email Address
 [INFO ] 2023-08-24 23:01:39.797 [main] PomUsingSelenium - clicked on create an account button
+[INFO ] 2023-09-03 21:44:14.116 [main] PomUsingSelenium - url opened
+[INFO ] 2023-09-03 21:44:14.193 [main] PomUsingSelenium - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2023-09-03 21:44:17.436 [main] PomUsingSelenium - Clicked on sign in link
+[INFO ] 2023-09-03 21:44:17.889 [main] PomUsingSelenium - Entered Email Address
+[INFO ] 2023-09-03 21:44:18.169 [main] PomUsingSelenium - clicked on create an account button
+[INFO ] 2023-09-03 21:44:21.582 [main] PomUsingSelenium - url opened
+[INFO ] 2023-09-03 21:44:21.627 [main] PomUsingSelenium - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2023-09-03 21:44:23.122 [main] PomUsingSelenium - Clicked on sign in link
+[INFO ] 2023-09-03 21:44:23.599 [main] PomUsingSelenium - Entered Email Address
+[INFO ] 2023-09-03 21:44:23.816 [main] PomUsingSelenium - clicked on create an account button
